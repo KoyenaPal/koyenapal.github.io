@@ -1,3 +1,3 @@
 # Koyena Pal
 
-This site is under construction! It should be updated by Dec 2nd. See you then :)
+This site is under construction! It should be updated by Dec 4th. See you then :)
