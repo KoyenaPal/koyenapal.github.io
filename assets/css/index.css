@@ -9,6 +9,7 @@ body {
     padding: 0px;
     font-family: 'Roboto';
     font-size: 18px;
+    line-height: 1.5;
 }
 .link {
     color: #2a7ae2;
@@ -21,8 +22,16 @@ body {
 #column {
     width: 50%; 
     margin-left: 25%; 
-    margin-right: 25%
+    margin-right: 25%;
 }
+
+@media (max-width: 500px) { 
+    #column {
+        width: 100%; 
+        margin-left: 0%; 
+        margin-right: 0%;
+    }   
+ }
 #right_block {
     width: 200px;
     padding: 0px 20px;
@@ -39,6 +48,7 @@ body {
 #name {
     font-size: 48px;
     font-weight: 500;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 #right_block a {
