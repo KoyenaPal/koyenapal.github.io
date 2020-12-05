@@ -1,3 +1,3 @@
 # Koyena Pal
 
-This site is under construction! It should be updated by Dec 8th. See you then :)
+This site currently has bare minimum information about my research and teaching experience.
