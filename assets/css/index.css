@@ -1,103 +1,65 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+/* Credits to Emily Liu from Cofolios for initial starter CSS */
 
-* {
-    box-sizing: border-box;
-  }
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+HEAD
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-body {
-    margin: 0px;
-    padding: 20px;
-    font-family: 'Roboto';
-    font-size: 18px;
-    line-height: 1.5;
-}
-.link {
-    color: #2a7ae2;
-    font-weight: bold;
-    text-decoration: none;
-}
-.link:hover {
-    text-decoration: underline;
-}
-#column {
-    width: 50%; 
-    margin-left: 25%; 
-    margin-right: 25%;
-}
-
-@media (max-width: 500px) { 
-    #column {
-        width: 100%; 
-        margin-left: 0%; 
-        margin-right: 0%;
-    }   
- }
-#right_block {
-    width: 200px;
-    padding: 0px 20px;
-    float: right;
-    position: relative;
+.head {
+    padding: 6rem 2rem;
     text-align: center;
 }
-#right_block #koyena_image {
+
+canvas {
+    position: absolute;
     width: 100%;
-    margin: 0px 0px;
-    border: 2px solid grey;
-    text-align: center;
-}
-#name {
-    font-size: 48px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#right_block a {
-    color: #2a7ae2;
-    text-decoration: none;
-}
-#right_block a:hover {
-    color: #333333;
-    text-decoration: underline;
+    height: 95%;
 }
 
-#first_block {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-top: 40px;
-    margin-bottom: 40px;
+@media only screen and (min-width: 1024px) {
+    .head {
+        padding: 12rem;
+    }
 }
 
-.header {
-    font-size: 28px;
-    font-weight: 300;
-    margin: 10px 0px;
+
+
+
+table.news .date {
+    width: 20%;
+    min-width: 80px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #000;
 }
-.pubs {
-    position: relative;
-    overflow: hidden;
+
+
+table.pubs .enum {
+    width: 10%;
+    min-width: 80px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #000;
 }
-.pub {
-    margin: 30px 0px;
-    line-height: 1.5;
-    position: relative;
-    overflow: hidden;
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+PROJECTS
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+#experience,
+#about {
+    padding: 8rem 0rem;
 }
-.pub .title {
-    font-weight: 500;
+
+.proj-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 1rem 2rem 3rem #F5F5F5;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
-.pub .figure {
-    width: 170px;
-    padding-right: 10px;
-    float: left;
-}
-.pub .conference {
-    font-weight: 300;
-}
-.pub .links a {
-    padding: 10px;
-    font-weight: 500;
-}
-.pixel {
-    opacity: 0;
-    width: 0px; height: 0px;
+
+@media only screen and (min-width: 768px) {
+    .proj-card {
+        min-height: 24rem;
+    }
 }

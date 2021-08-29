@@ -1,103 +1,670 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <title>Koyena Pal</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/img/icon.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e881d59122.js" crossorigin="anonymous"></script>
+    <title>Koyena Pal - Master's Student</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- STYLESHEET -->
+    <link href="assets/css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/index.css">
+    <script src='assets/js/main.js'></script>
 </head>
-<body>
-    <div id="column">
-        <div id="name">Hi! I'm Koyena Pal.</div>
-        <div id="first_block">
-            <div id="right_block">
-                <img src="assets/img/kpal1.jpg" class="img-fluid img-responsive" id="koyena_image"/>
-                &nbsp;
-                <div>
-                    <a target='_blank' href='https://www.linkedin.com/in/koyena-pal/' style='text-decoration:none'>
-                      <img src='assets/img/icons/linkedin.svg'
-                           width=24px style='vertical-align:middle'>
-                    </a>
-                    &nbsp;
-                    <a target='_blank' href='assets/docs/Koyena_Pal_Resume.pdf' style='text-decoration:none'>
-                      <img src='assets/img/icons/resume.svg'
-                           width=24px style='vertical-align:middle'>
-                    </a>
-                    &nbsp;
-                    <a target='_blank' href='https://github.com/KoyenaPal' style='text-decoration:none'>
-                      <img src='assets/img/icons/github.svg' type='image/svg+xml'
-                           width=24px style='vertical-align:middle'>
-                    </a>
-                    &nbsp;
-                    <a href='mailto:koyena_pal@brown.edu' style='text-decoration:none'>
-                      <img src='assets/img/icons/email.svg' type='image/svg+xml'
-                           width=24px style='vertical-align:middle'>
-                    </a>
-                </div>
+
+<body id="page-top">
+    <!-- NAVBAR-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#misc">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link js-scroll-trigger" href="assets/docs/Koyena_Pal_Resume.pdf">Resume</a>
+                    </li>
+                </ul>
             </div>
-            <p>I am a graduating senior at <a class="link" href="https://www.brown.edu/">Brown University</a> in Rhode Island, USA, pursuing B.Sc in Computer Science with Honors. 
-                In my research, I am broadly interested in the intersection of Cybersecurity and AI. 
-                I also love exploring NLP and its application in other fields such as Healthcare.</p>
-            <p>Currently, I am a student researcher under the supervision of <a class="link" href="http://brown.edu/Research/AI/people/carsten.html"> Prof. Carsten Eickhoff</a> at 
-            <a class="link" href="http://brown.edu/Research/AI/index.html"> Brown AI Lab for Biomedical Informatics</a> .
-                There, I have been working on projects related to text summarization and information retrieval.
-            <a>For the past summers, I have also worked as an InfoSec intern at <a class="link" href="https://it.brown.edu/information-security"> Brown's Network Security department </a> (2018)
-             and <a class="link" href="https://www.akamai.com/"> Akamai Technologies </a> (2019 and 2020).</a> Feel free to connect with me on 
-             <a class="link" href="https://www.linkedin.com/in/koyena-pal/">LinkedIn</a> or contact me through <a class="link" href='mailto:koyena_pal@brown.edu'>email</a> to learn more.</p>
         </div>
-        <div class="header"><h2>Teaching / Mentoring</h2></div>
-        <div style="margin: 30px 0px;">
-            <p>I am currently the Head Teaching Assistant (HTA) for <a class="link" href="https://brown-deep-learning.github.io/dl-website-2020/index.html"> CSCI 1470/2470 (Deep Learning)</a>.</p>
-            <p>
-            I also have been a TA for:
-            <ul style='line-height: 1.5;'>
-                <li> <a class="link" href="http://cs.brown.edu/courses/csci1010/index.html"> CSCI 1010</a> &mdash; Theory of Computation &mdash; Fall 2019,</li>
-                <li> <a class="link" href="http://cs.brown.edu/courses/csci0220/"> CSCI 0220</a> &mdash; Introduction to Discrete Structures and Probability &mdash; Spring 2018</li>
-                <li> <a class="link" href="http://cs.brown.edu/courses/csci0170/"> CSCI 0170</a> &mdash; Computer Science: An Integrated Introduction &mdash; Fall 2018</li>
-            </ul>
-            </p>
-            <p>
-                In addition to the undergraduate teaching committee, I have been active in organizations such as Women In Computer Science where I have served as a mentor to younger women pursuing
-            CS at Brown. Outside Brown, I was an instructor at <a class="link" href="https://www.inspiritai.com/" >Inspirit AI</a> (Summer 2020), an outreach program to teach AI to high school students worldwide.
-            </p>
+    </nav>
+    <canvas></canvas>
+    <!-- LANDING -->
+
+    <section id="about">
+        <div>
+                <!-- ABOUT ME SECTION -->
+        <section >
+            <div class="container justify-content-center">
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-1">
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <br>
+                        <h1>Hi!
+                            I'm Koyena Pal 👋 </h1>
+                            <br>
+                            <br>
+                        <p>I am a fifth-year Master's student student (four years as ugrad, one year as grad) at <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> in Rhode Island, USA, affiliated with
+                            <a style="color: brown" target="_blank" class="link" href="http://brown.edu/Research/AI/index.html"> AI Lab for Biomedical Informatics</a>.
+                            My advisor is <a class="link" target="_blank" style="color: blue" href="http://brown.edu/Research/AI/people/carsten.html"> Prof. Carsten Eickhoff</a>.</p>
+                        <p>
+                            Previously, I have worked as an InfoSec intern at <a class="link" target="_blank" style="color: brown" href="https://it.brown.edu/information-security"> Brown's Network Security department </a> (2018)
+                            and <a class="link" target="_blank" style="color: rgb(255, 145, 0)" href="https://www.akamai.com/"> Akamai Technologies </a> (2019, 2020 and soon in Spring 2021). There, I worked on applying
+                        state-of-the art AI and NLP research to automate and optimize security processes such as PCI policy compliance fulfillment, risks and vulnerability management and more.
+                        You can view more in my CV <a class="link" target="_blank" style="color: blue" href="assets/docs/Koyena_Pal_CV.pdf"> here</a>.
+                        </p>
+                        <p> 
+                            If you are interested in research or would like to break into the field of Computer Science, feel free to reach out to me through
+                            <a class="link" target="_blank" style="color: blue" href="https://www.linkedin.com/in/koyena-pal/">LinkedIn</a> or through <a class="link" style="color: blue" href='mailto:koyena_pal@brown.edu'>email</a>
+                            ! I would be happy to help you however I can.
+                         <br>
+                         <br>
+                         <a style="font-weight: 600;"href="#news">See More ↓</a>
+                         <br>
+                         <br>
+                         <hr>
+                         <a class="" target="_blank" href="mailto:koyena_pal@brown.edu">
+                            <i class="fas fa-envelope fa-lg"></i></a>
+                            &nbsp;
+                            &nbsp;
+                        <a class="" target="_blank" href="https://www.linkedin.com/in/koyena-pal/">
+                            <i class="fab fa-linkedin-in fa-lg"></i></a>
+                            &nbsp;
+                            &nbsp;
+                        <a class="" target="_blank" href="https://scholar.google.com/citations?hl=en&user=W-rD5x0AAAAJ">
+                            <i class="fa fa-graduation-cap fa-lg"></i></a>
+                            &nbsp;
+                            &nbsp;
+                        <a class="" target="_blank" href="https://github.com/KoyenaPal">
+                            <i class="fab fa-github fa-lg"></i></a>
+                            &nbsp;
+                            &nbsp;
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-md-7">
+                        <img class="img-fluid" style="padding: 20px; width: 90%;" src="assets/img/kpal1.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
-        <div class="header"><h2>Peer-Reviewed Publications</h2></div>
-        <div class="pubs">
-            <div class="pub">
-                <img src="assets/img/pubs/swat_testbed.png" class="figure" />
-                <div class="title">Effectiveness of Association Rules Mining for Invariants Generation in Cyber-Physical Systems</div>
-                <div class="authors">Koyena Pal, Sridhar Adepu and Jonathan Goh</div>
-                <div class="conference">18th IEEE International Symposium on High Assurance Systems Engineering, 2017</div>
-                <div class="links">
-                    <a href="assets/docs/HASE_Final_Paper.pdf" target="_new">PDF</a>
-                    <a href="https://www.youtube.com/watch?v=K1Dqhd-5hUo" target="_new">Presentation</a>
+        </div>
+        </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="space bg-recent-news" id="news">
+        <div class="container col-lg-4">
+            <div class="text-center">
+                <h1><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Recent News</h1>
+            </div>
+            <br>
+            <br>
+            <div id="recent_news" class="table-responsive">
+                <script type="text/javascript">
+                    display_recent_news();
+                 </script>
+            </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="space bg" id="experience">
+        <div class="container col-md-8">
+            <div class="text-center">
+                <h1><i class="fa fa-briefcase" aria-hidden="true"></i> Experience</h1>
+            </div>
+            <br>
+            <br>
+            <!-- COMPANY 1 -->
+            <div class="row proj-card cardHover">
+                <div class="col-md-4">
+                    <a href = "https://brown.edu/Research/AI/index.html" target = "_blank"> <img class="img-fluid center" src="assets/img/carsten_lab.gif" alt="" /></a>
+                </div>
+                <div class="col-md-8">
+                    <br>
+                    <h5 style="text-align:left;">
+                        Student Researcher
+                        <span style="float:right;">
+                           Providence, RI
+                        </span>
+                    </h5>
+                    <p>Sept 2019 - Present</p>
+                    <p>
+                        <ul>
+                            <li>Advisor: <a class="link" target="_blank" style="color: blue" href="http://brown.edu/Research/AI/people/carsten.html"> Prof. Carsten Eickhoff</a></li>
+                            <li>AI + Healthcare: Developed a patient-centric literature summarization mechanism by implementing
+                                NLP models on biomedical texts.</li>  
+                            <li>AI + HCI: Conducted user-study on the effect of multi-document summarizations on User Search
+                                Results Page (SERP) experience.</li>
+            
+                        </ul>
+                    </p>
                 </div>
             </div>
-        <div class="header"><h2>Other Works</h2></div>
-        <div class="pubs">
-            <div class="pub">
-                <img src="assets/img/pubs/sok_jit_rop.png" class="figure" />
-                <div class="title">SoK: JIT ROP Protection</div>
-                <div class="authors">Koyena Pal</div>
-                <div class="conference">CSCI 2951-U &mdash; Topics in Software Security, Spring 2020</div>
-                <div class="links">
-                    <a href="assets/docs/SoK_JITROP.pdf" target="_new">PDF</a>
-                    <a href="http://cs.brown.edu/courses/csci2951-u/" target="_new">Class Info</a>
+            <br>
+            <br>
+            <!-- COMPANY 2 -->
+            <div class="row proj-card cardHover">
+                <div class="col-md-4">
+                    <a href = "https://www.akamai.com/" target = "_blank"> <img class="img-fluid center" src="assets/img/akamai_logo.png" alt="" /></a>
+                </div>
+                <div class="col-md-8">
+                    <br>
+                    <h5 style="text-align:left;">
+                        Information Security Intern
+                        <span style="float:right;">
+                           Cambridge, MA
+                        </span>
+                    </h5>
+                    <p>May 2020 - August 2020</p>
+                    <p>
+                        <ul>
+                            <li>Designed and deployed UI features to achieve consistent language interpretation in Technical Risk
+                                Illuminator, a tool built to support executive decisions.</li>  
+                            <li>Conceptualized and modeled an NLP-based multiple-tag generator to identify key terms and types of
+                                incidents from cyber-incident reports.</li>
+                        </ul>
+                    </p>
+                    <br>
+                    <h5 style="text-align:left;">
+                        Information Security Intern
+                        <span style="float:right;">
+                           Cambridge, MA
+                        </span>
+                    </h5>
+                    <p>May 2019 - August 2019</p>
+                    <p>
+                        <ul>
+                            <li>Optimized the yearly audits process duration by building a systems register, which generates answers that business units require to show that they are PCI Compliant.</li>  
+                            <li>Revamped the PCI Gap Analysis Template to streamline the process of products entering the PCI Compliance program for the first time.</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
-            <p>
-            I am currently working on 2 other papers. Feel free to contact me through <a class="link" href='mailto:koyena_pal@brown.edu'>email</a> if you would like to know more about them!
-            </p>
+            <br>
+            <br>
+            <!-- COMPANY 3 -->
+            <div class="row proj-card cardHover">
+                <div class="col-md-4">
+                    <a href = "https://it.brown.edu/information-security" target = "_blank"> <img class="img-fluid center" src="assets/img/brown_logo.png" alt="" /></a>
+                </div>
+                <div class="col-md-8">
+                    <br>
+                    <h5 style="text-align:left;">
+                        Information Security Analyst Intern
+                        <span style="float:right;">
+                           Providence, RI
+                        </span>
+                    </h5>
+                    <p>May 2018 - July 2018</p>
+                    <p>
+                        <ul>
+                            <li>Substantially improved copyright ticketing process automation through network expansion in support
+                                of internal IP address, MAC address, and public IP username identification.</li>
+                            <li>Delivered code improvements through the establishment of quality assurance (QA) environment in DeskPro (REST API), enabling daily running of specific tickets by agents.</li>              
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- COMPANY 4 -->
+            <div class="row proj-card cardHover">
+                <div class="col-md-4">
+                    <a href = "https://itrust.sutd.edu.sg/" target = "_blank"> <img class="img-fluid center" src="assets/img/itrust_logo.jpg" alt="" /></a>
+                </div>
+                <div class="col-md-8">
+                    <br>
+                    <h5 style="text-align:left;">
+                        Research Intern
+                        <span style="float:right;">
+                           Singapore
+                        </span>
+                    </h5>
+                    <p>April 2016 - Jan 2017</p>
+                    <p>
+                        <ul>
+                            <li>AI + Cyber Security: Proposed a novel method to detect cyber-attacks on a Cyber-Physical System with <a class="link" target="_blank" style="color: blue" href="https://adepu-phd.github.io/"> Dr. Sridhar Adepu</a>, 
+                                <a class="link" target="_blank" style="color: blue" href="https://www.linkedin.com/in/dr-jonathan-goh-4524ab22/"> Dr. Jonathan Goh</a>, and <a class="link" style="color: blue" target="_blank" href="https://itrust.sutd.edu.sg/people/faculty/aditya-p-mathur/"> Prof. Aditya Mathur</a>.</li>
+                            <li>Published and won Top 3 best student paper presentation for resulting research paper entitled <a class="link" target="_blank" style="color: blue" href="https://ieeexplore.ieee.org/document/7911883"> "Effectiveness of Association Rules Mining for Invariants Generation in Cyber-Physical Systems"</a> for the 18th IEEE International Symposium on High Assurance Systems Engineering (HASE) 2017.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="space" id="publications">
+        <div class="container col-md-8">
+            <div class="text-center">
+                <h1><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Publications</h1>
+            </div>
+            <br>
+            <div class="table table-responsive table-borderless">
+
+                <table class="pubs">
+                    <tbody>
+                        <tr>
+                            <td class="enum">[1]</td>
+                            <td> Koyena Pal, Carsten Eickhoff, “The Effect of Multi-Document Summaries on SERP Experience,”
+                                2021 15th ACM International WSDM Conference, 2021, <i>Under Review</i>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="enum">[2]</td>
+                            <td><u>K. Pal</u>, S. Adepu and J. Goh, “Effectiveness of Association Rules Mining for Invariants Generation
+                                in Cyber-Physical Systems,” 2017 IEEE 18th International Symposium on High Assurance Systems
+                                Engineering (HASE), 2017, pp. 124-127, doi: 10.1109/HASE.2017.21.
+                                <br>
+                                <a class="link" target="_blank" style="color: blue" href="assets/docs/HASE_Final_Paper.pdf"> [Paper]</a>
+                                &nbsp;
+                                <a class="link" target="_blank" style="color: blue" href="https://www.youtube.com/watch?v=K1Dqhd-5hUo"> [Presentation]</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                  </table>
+            <br>
+            <br>
+            </div>
+    </section>
+
+    <!-- TEACHING EXPERIENCE -->
+    <section class="space bg-recent-news" id="teaching">
+        <div class="container col-md-8">
+            <div class="text-center">
+                <h1><i class="fa fa-book" aria-hidden="true"></i> Teaching Experience</h1>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+                <p>I have served as a teaching assistant for the following courses at Brown University. 
+                    Semesters marked with an asterisk (*) denote a Head Teaching Assistant role.
+                </p>
             </div>
 
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <br>
+            <br>
+            <!-- CLASS 1 -->
+            <div class="row col-md-11">
+                <div class="col-md-1"></div>
+                <div style="border-left: 5px solid brown;"class="col-md-11">
+                    <br>
+                    <h5>
+                        <a class="link" target="_blank"href="http://cs.brown.edu/courses/csci1470"> CSCI 1470/2470: Deep Learning</a> 
+                    </h5>
+                    <p>Fall 2020*</p>
+                    <dl>
+                        <dt>
+                            Course Description: 
+                        </dt>
+                        <dd> This course intends to give students a practical understanding of 
+                            deep learning as applied in these and other areas. It also teaches the Tensorflow programming language for the expression of deep leaning algorithms.
+                            With <a class="link" target="_blank" style="color: blue" href="https://dritchie.github.io/"> Prof. Daniel Ritchie</a>.
+                        
+                        </dd>
+                    </dl>
+                    <p>
+                        <ul>
+                            <li>
+                                Interviewed, hired, trained, and coordinated staff of 35 undergraduate and graduate TAs.
+                            </li>
+                            <li>
+                                Developed course materials, managed course logistics, led weekly labs, graded student work and held office hours.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- CLASS 2 -->
+            <div class="row col-md-11">
+                <div class="col-md-1"></div>
+                <div style="border-left: 5px solid lightcoral;"class="col-md-11">
+                    <br>
+                    <h5>
+                        <a class="link" target="_blank"href="http://cs.brown.edu/courses/csci1010/"> CSCI 1010: Theory of Computation</a>
+                    </h5>
+                    <p>Fall 2019</p>
+                    <dl>
+                        <dt>
+                            Course Description: 
+                        </dt>
+                        <dd> The course introduces basic models of computation including languages, finite-state automata and Turing machines. 
+                            Proves fundamental limits on computation (incomputability, the halting problem). 
+                            Provides the tools to compare the hardness of computational problems (reductions). Introduces computational complexity classes (P, NP, PSPACE and others).
+                            With <a class="link" target="_blank" style="color: blue" href="https://vivo.brown.edu/display/ld9"> Prof. Lorenzo De Stefani</a>.
+                        
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- CLASS 3 -->
+            <div class="row col-md-11">
+                <div class="col-md-1"></div>
+                <div style="border-left: 5px solid lightsalmon;"class="col-md-11">
+                    <br>
+                    <h5>
+                        <a class="link" target="_blank"href="http://cs.brown.edu/courses/csci0220/"> CSCI 0220: Introduction to Discrete Structures and Probability</a>
+                    </h5>
+                    <p>Spring 2018</p>
+                    <dl>
+                        <dt>
+                            Course Description: 
+                        </dt>
+                        <dd> Seeks to place on solid foundations the most common structures of computer science, 
+                            to illustrate proof techniques, to provide the background for an introductory course in computational theory, 
+                            and to introduce basic concepts of probability theory. Introduces Boolean algebras, logic, set theory, elements 
+                            of algebraic structures, graph theory, combinatorics, and probability.
+                            With <a class="link" target="_blank" style="color: blue" href="https://www.dam.brown.edu/people/cklivans/"> Prof. Caroline J Klivans</a>.
+                        
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- CLASS 4 -->
+            <div class="row col-md-11">
+                <div class="col-md-1"></div>
+                <div style="border-left: 5px solid orange;"class="col-md-11">
+                    <br>
+                    <h5>
+                        <a class="link" target="_blank"href="http://cs.brown.edu/courses/csci0170/"> CSCI 0170: Computer Science - An Integrated Introduction</a>
+                    </h5>
+                    <p>Fall 2018</p>
+                    <dl>
+                        <dt>
+                            Course Description: 
+                        </dt>
+                        <dd> CSCI0170/0180 is an introductory sequence that helps students begin to develop the skills, knowledge, and confidence to solve computational problems elegantly, correctly, efficiently, and with ease. 
+                            The sequence is unique in teaching both the functional and imperative programming paradigms---
+                            the first through the languages Scheme and ML in CSCI0170; the second through Java in CSCI0180.
+                            All of the following fundamental computer science techniques are integrated into the course material: algorithms, data structures, analysis, problem solving, abstract reasoning, and collaboration.
+                            With <a class="link" target="_blank" style="color: blue" href="https://vivo.brown.edu/display/pklein"> Prof. Philip Klein</a>.
+                        
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        <br>
+        <br>
+        <p>
+            In addition to the teaching committee, I have been active in organizations such as <a class="link" style="color: blue" href="http://cs.brown.edu/people/orgs/wics/" >Women In Computer Science</a>
+             where I have served as a mentor to younger women pursuing CS at Brown. Outside Brown, I was an instructor at <a class="link" style="color: blue" href="https://www.inspiritai.com/" >Inspirit AI</a> (Summer 2020), an outreach program to teach AI to high school students worldwide.
+        </p>
+    </section>
+    <!-- EDUCATION -->
+    <section class="space bg" id="education">
+        <div class="container col-md-8">
+            <div class="text-center">
+                <h1><i class="fa fa-university" aria-hidden="true"></i> Education</h1>
+            </div>
+            <br>
+            <br>
+            <!-- EDUCATION 1 -->
+            <div class="row proj-card cardHover">
+                <div class="col-md-4">
+                    <a href = "https://www.brown.edu" target = "_blank"> <img class="img-fluid center" src="assets/img/brown_logo.png" alt="" /></a>
+                </div>
+                <div class="col-md-8">
+                    <br>
+                    <h5 style="text-align:left;">
+                        M.Sc and B.Sc in Computer Science (Honors)
+                        <span style="float:right;">
+                           Providence, RI
+                        </span>
+                    </h5>
+                    <p>Sept 2017 - May 2022</p>
+                    <p>
+                        <u>Undergraduate Thesis:</u>
+                        <br>
+                        <a class="link" target="_blank" style="color: blue" href="http://cs.brown.edu/research/pubs/theses/ugrad/2021/pal.koyena.pdf"> The Effect of Multi-Document Summarizations on User SERP Experience</a>
+
+                    </p>
+                    <p>
+                        <u>Graduate-Level Coursework:</u>
+                        <ul>
+                            <li>Computr Systems Security</li>
+                            <li>Topics in Software Security</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <u>Undergraduate Coursework:</u>
+                        <ul>
+                            <li>Computer Science: An Integrated Introduction</li>
+                            <li>Introduction to Engineering</li>
+                            <li>Honors Calculus</li>
+                            <li>Principle of Economics</li>
+                            <li>Discrete Structures and Probability</li>
+                            <li>Cybersecurity and International Relations</li>
+                            <li>Linear Algebra</li>
+                            <li>Statistical Inference</li>
+                            <li>Introduction to Computer Systems</li>
+                            <li>Theory of Computation</li>
+                            <li>Introduction to Software Engineering</li>
+                            <li>Machine Learning</li>
+                            <li>Financial Accounting</li>
+                            <li>Intermediate Microeconomics</li>
+                            <li>Deep Learning</li>
+                            <li>Design and Analysis of Algorithms</li>
+                            <li>Software Security Exploitation</li>
+                            <li>Distributed Computer Systems</li>
+                            <li>Logic for Systems (Formal Methods and Verification)</li>
+                            <li>Entrepreneurial Process</li>
+                            <li>Social Pyschology</li>
+                            <li>Introduction to Video Game Studies</li>
+                            <li>CS for Social Change</li>
+                            <li>User Interface and User Experience</li>
+
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- SCHOOL 2 -->
+            <div class="row proj-card cardHover">
+                <div class="col-md-4">
+                    <a href = "https://singapore.globalindianschool.org/" target = "_blank"> <img class="img-fluid center" src="assets/img/giis_logo.jpeg" alt="" /></a>
+                </div>
+                <div class="col-md-8">
+                    <br>
+                    <h5 style="text-align:left;">
+                        International Baccalaureate (IB) Diploma
+                        <span style="float:right;">
+                           Singapore
+                        </span>
+                    </h5>
+                    <p> July 2015 - May 2017</p>
+                    <p>
+                        <u>Higher-Level Coursework:</u>
+                        <ul>
+                            <li>Physics</li>
+                            <li>Chemistry</li>
+                            <li>Math</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <u>Standard-Level Coursework:</u>
+                        <ul>
+                            <li>Economics</li>
+                            <li>English Literature</li>
+                            <li>French Ab Initio</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- MISC -->
+    <section class="space" id="misc">
+        <div class="container col-lg-8">
+            <div class="text-center">
+                <h1><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;Photo Gallery</h1>
+            </div>
+            <br>
+            <br>
+            <div class="card-deck">
+                <div class="row">
+                    <div class="card col-sm-6">
+                        <img class="card-img-top" src="assets/img/daebak.jpeg">
+                        <div class="card-body">
+                          <h5 class="card-title">Daebak Kpop Dance Group at Brown</h5>
+                          <p class="card-text">Fun photo taken with my dance crewmates in the dance group that I was part of for all 4 years of my undergraduate program. Click any of the following links below
+                              to see some our dance covers:
+                              <ul>
+                                  <li><a href="https://www.youtube.com/watch?v=FU-Hx76JC7U" target="_blank">Boy With Luv, BTS</a></li>
+                                  <li><a href="https://www.youtube.com/watch?v=8vADv9rdY0w" target="_blank">Nunu Nana, Jessi</a></li>
+                                  <li><a href="https://www.youtube.com/watch?v=3DXks4sduJY" target="_blank">On, BTS</a></li>
+                              </ul>
+                              
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-sm-6">
+                          <img class="card-img-top" src="assets/img/piano.jpeg">
+                          <div class="card-body">
+                            <h5 class="card-title">Piano</h5>
+                            <p class="card-text">
+                                Sometimes, I play the piano during my free time. I professionally learned and
+                                completed all levels of Piano <a href="https://us.abrsm.org/en/" target="_blank">ABRSM</a> certification. Feel free to click the
+                                following link to see a song I covered for fun!
+                                <br><br>
+                                <a href="https://www.youtube.com/watch?v=M5MDAJTD_ZQ" target="_blank">Summer Love, One Direction</a>
+                            </p>
+                          </div>
+                        </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="card col-sm-6">
+                        <img class="card-img-top" src="assets/img/dl_presentation.jpg">
+                        <div class="card-body">
+                        <h5 class="card-title">Shallow Forgetters</h5>
+                        <p class="card-text">As part of our Deep Learning Final project, my friends and I re-created the mechanism to detect phishing using URLs. Here is
+                            a picture of us presenting our implementation.
+                        </p>
+                        </div>
+                    </div>
+                  <div class="card col-sm-6">
+                    <img class="card-img-top" src="assets/img/hackathon.jpeg">
+                    <div class="card-body">
+                      <h5 class="card-title">Hack@Brown</h5>
+                      <p class="card-text"> A picture of my friend and I taken by one of the Hack@Brown team members as we waited for our code to finish running.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="card col-sm-6">
+                    <img class="card-img-top" src="assets/img/akamai_2019.jpg" style="width: fit-content;">
+                    <div class="card-body">
+                      <h5 class="card-title">Akamai Internship 2019</h5>
+                      <p class="card-text"> A classic photo of an intern in front of her company logo to mark the end of her internship.
+                      </p>
+                    </div>
+                </div>
+                <div class="card col-sm-6">
+                    <img class="card-img-top" src="assets/img/akamai_2020.jpeg" style="width: fit-content;">
+                    <div class="card-body">
+                      <h5 class="card-title">Akamai Internship 2020</h5>
+                      <p class="card-text"> Due to COVID-19, our 2020 internship was held remotely. Here is the picture of us ,i.e., the InfoSec interns,
+                          meeting virtually in one of our many weekly meetups.
+                      </p>
+                    </div>
+                </div>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+              <div class="card col-sm-12">
+                  <img class="card-img-top" src="assets/img/akamai_group_2019.jpg">
+                  <div class="card-body">
+                    <h5 class="card-title">Akamai Intern Picture</h5>
+                    <p class="card-text"> A group picture of all the 2019 interns at Akamai after a phenomenal BBQ dinner with the CEO.
+                    </p>
+                  </div>
+              </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center">
+        <hr>
+        <p class="space">Want to chat or learn more? Click any of the following links:</p>
+        <!-- Footer Social Icons-->
+        <a class="enlarge" target="_blank" href="https://github.com/KoyenaPal">
+            <i class="fab fa-github"></i>&nbsp;</a>
+        <a class="enlarge" target="_blank" href="mailto:koyena_pal@brown.edu">
+            <i class="fas fa-envelope"></i>&nbsp;</a>
+        <a class="enlarge" target="_blank" href="https://www.linkedin.com/in/koyena-pal/">
+            <i class="fab fa-linkedin-in">&nbsp;</i></a>
+        <br><br>
+        <p class="caption">Have a fantastic day!</p>
+    </footer>
+
+    <!-- END FOOTER -->
+    <!--  -->
+    <!-- Scroll to Top Button-->
+
+    <a class="js-scroll-trigger scroll-to-top position-fixed enlarge" href="#page-top"><i
+            class="fas fa-chevron-up"></i></a>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>    
+    <script>js/jquery.fancybox.min.js</script>
+
+    <script>
+      $(document).ready(function() {
+        $('.fancybox').fancybox({
+          padding   	: 0,
+          maxWidth  	: '100%',
+          maxHeight 	: '100%',
+          width   		: 560,
+          height    	: 315,
+          autoSize  	: true,
+          closeClick  : true,
+          openEffect  : 'elastic',
+          closeEffect : 'elastic'
+        });
+      });
+    </script>
 </body>
 </html>
