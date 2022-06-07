@@ -1,4 +1,6 @@
 var news_entries = [
+  ["May 2022",`Wrapped up my Master's degree at <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> as well as my internship at <a style="color: #da532c" target="_blank" class="link" href="https://www.akamai.com/">Akamai Technologies</a>.`],
+  ["Mar 2022",`Accepted into the Computer Science Ph.D. program at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a>!`],
   ["Jan 2022",`Started working at <a style="color: #da532c" target="_blank" class="link" href="https://www.akamai.com/">Akamai Technologies</a> as a return InfoSec intern.`],
     ["Dec 2021",`Taught AI and Ethics to high school students at <a style="color: blue" target="_blank" class="link" href="https://www.inspiritai.com/">Inspirit AI</a> Winter Session program.`],
     ["Sept 2021", `Joined <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> as a Master's graduate student`],
