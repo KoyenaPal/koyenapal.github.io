@@ -1,4 +1,5 @@
 var news_entries = [
+  ["July 2022",`Selected to TA Deep Learning at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a>.`],
   ["May 2022",`Wrapped up my Master's degree at <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> as well as my internship at <a style="color: #da532c" target="_blank" class="link" href="https://www.akamai.com/">Akamai Technologies</a>.`],
   ["Mar 2022",`Accepted into the Computer Science Ph.D. program at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a>!`],
   ["Jan 2022",`Started working at <a style="color: #da532c" target="_blank" class="link" href="https://www.akamai.com/">Akamai Technologies</a> as a return InfoSec intern.`],
@@ -8,7 +9,7 @@ var news_entries = [
     ["May 2021", `Graduated from <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> with B.Sc in Computer Science (Honors)!`],
     ["April 2021", `Successfully defended my <a style="color: blue" target="_blank" class="link" href="http://cs.brown.edu/research/pubs/theses/ugrad/2021/pal.koyena.pdf">undergraduate thesis</a>!`]
 ]
-var curr_news_cutoff = 6
+var curr_news_cutoff = 5
 
 function display_recent_news() {
     var news_entries_text = ``
@@ -25,5 +26,33 @@ function display_recent_news() {
           <table class="news">
             <tbody>${news_entries_text}</tbody>
           </table>
+          <br>
+          <br>
+          <div class=btn-text-center>
+          <button class="btn btn-outline-dark btn-text-center" onclick="display_all_news()">Show More</button>
+          </div>
     `;
+}
+
+function display_all_news() {
+  var news_entries_text = ``
+  for (var i=0; i<news_entries.length; i++) {
+      //console.log(news_entries[i]);
+      news_entries_text += `
+           <tr>
+             <td class="date">${news_entries[i][0]}</td>
+             <td>${news_entries[i][1]}</td>
+           </tr>
+      `;
+  }
+  document.getElementById("recent_news").innerHTML = `
+        <table class="news">
+          <tbody>${news_entries_text}</tbody>
+        </table>
+        <br>
+        <br>
+        <div class=btn-text-center>
+        <button class="btn btn-outline-dark btn-text-center" onclick="display_recent_news()">Show Less</button>
+        </div>
+  `;
 }
