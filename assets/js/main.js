@@ -1,4 +1,5 @@
 var news_entries = [
+  ["Sept 2022",`Started my PhD program at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a> in the <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://baulab.info/">Interpretable AI Lab</a>.`],
   ["July 2022",`Selected to TA Deep Learning at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a>.`],
   ["May 2022",`Wrapped up my Master's degree at <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> as well as my internship at <a style="color: #da532c" target="_blank" class="link" href="https://www.akamai.com/">Akamai Technologies</a>.`],
   ["Mar 2022",`Accepted into the Computer Science Ph.D. program at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a>!`],
