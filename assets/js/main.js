@@ -1,4 +1,5 @@
 var news_entries = [
+  ["Feb 2023",`Got a <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.frontiersin.org/articles/10.3389/fphar.2023.1086913/full">paper</a> published in Frontiers in Pharmacology Journal!`],
   ["Dec 2022",`Became a student reviewer at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University's</a> CS PhD Admissions Committee 2022</a>.`],
   ["Sept 2022",`Started my PhD program at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a> in the <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://baulab.info/">Interpretable AI Lab</a>.`],
   ["July 2022",`Selected to TA Deep Learning at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a>.`],
