@@ -1,6 +1,6 @@
 var news_entries = [
   ["Oct 2023",`<a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://future.baulab.info/">Future Lens paper</a> accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.conll.org/2023">CoNLL 2023</a>!`],
-  ["Oct 2023",`Hosted a researach outreach booth at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://undergraduate.northeastern.edu/research/news/source2023/">SOURCE 2023</a>.`],
+  ["Oct 2023",`Hosted a research outreach booth at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://undergraduate.northeastern.edu/research/news/source2023/">SOURCE 2023</a>.`],
   ["Feb 2023",`Got a <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.frontiersin.org/articles/10.3389/fphar.2023.1086913/full">paper</a> published in Frontiers in Pharmacology Journal!`],
   ["Dec 2022",`Became a student reviewer at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University's</a> CS PhD Admissions Committee 2022</a>.`],
   ["Sept 2022",`Started my PhD program at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.northeastern.edu/">Northeastern University</a> in the <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://baulab.info/">Interpretable AI Lab</a>.`],
