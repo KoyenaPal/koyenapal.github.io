@@ -28,13 +28,14 @@ table.news .date {
     width: 20%;
     min-width: 80px;
     font-weight: bold;
+    padding-left: 50px;
     padding-right: 20px;
     color: #000;
 }
 
 
 table.pubs .enum {
-    width: 10%;
+    width: 20%;
     min-width: 80px;
     font-weight: bold;
     padding-right: 20px;
