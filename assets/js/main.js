@@ -1,4 +1,6 @@
 var news_entries = [
+  ["Mar'24",`New arXiv Paper: <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://arxiv.org/abs/2403.02327">Model Lakes</a>`],
+  ["Mar'24",`Invited to be in a podcast to talk about <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://future.baulab.info/">Future Lens</a>. See <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.cognitiverevolution.ai/opening-ais-black-box-with-prof-david-bau-koyena-pal-and-eric-todd-of-northeastern-university/">here</a>!`],
   ["Oct'23",`<a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://future.baulab.info/">Future Lens paper</a> accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.conll.org/2023">CoNLL 2023</a>!`],
   ["Oct'23",`Hosted a research outreach booth at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://undergraduate.northeastern.edu/research/news/source2023/">SOURCE 2023</a>.`],
   ["Feb'23",`Got a <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.frontiersin.org/articles/10.3389/fphar.2023.1086913/full">paper</a> published in Frontiers in Pharmacology Journal!`],
