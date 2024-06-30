@@ -1,4 +1,6 @@
 var news_entries = [
+  ["June'24",`UGEN paper accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://tabular-data-analysis.github.io/tada2024/">TaDA @ VLDB 2024</a>!`],
+  ["June'24",`Served as a Comms Sub-Chair at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://chilconference.org/">CHIL 2024</a>`],
   ["Mar'24",`New arXiv Paper: <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://arxiv.org/abs/2403.02327">Model Lakes</a>`],
   ["Mar'24",`Invited to be in a podcast to talk about <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://future.baulab.info/">Future Lens</a>. See <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.cognitiverevolution.ai/opening-ais-black-box-with-prof-david-bau-koyena-pal-and-eric-todd-of-northeastern-university/">here</a>!`],
   ["Oct'23",`<a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://future.baulab.info/">Future Lens paper</a> accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.conll.org/2023">CoNLL 2023</a>!`],
