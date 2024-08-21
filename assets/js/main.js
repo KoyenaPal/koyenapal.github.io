@@ -1,4 +1,5 @@
 var news_entries = [
+  ["Aug'24",`Initiated and organized the <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://nemiconf.github.io/summer24">New England Mechanistic Interpretability Meetup 2024 </a>`],
   ["Aug'24",`New survey paper on <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://arxiv.org/abs/2408.01416">causal interpretability</a> is out on arXiv!`],
   ["July'24",`Preprint about <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://arxiv.org/abs/2407.14561">NNsight and NDIF</a> is out on arXiv!`],
   ["June'24",`UGEN paper accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://tabular-data-analysis.github.io/tada2024/">TaDA @ VLDB 2024</a>!`],
