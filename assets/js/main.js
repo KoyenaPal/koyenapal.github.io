@@ -1,5 +1,6 @@
 var news_entries = [
-  ["Mar'25",`Accepted as a <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.matsprogram.org/">MATS Scholar</a> with Neel Nanda as my mentor!`],
+  ["Mar'25",`Served as a reviewer <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://icml.cc/">MATS Scholar</a> at ICML 2025!`],
+  ["Mar'25",`Accepted into <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.matsprogram.org/">MATS Scholar</a> Training phase with Neel Nanda as my mentor!`],
   ["Feb'25",`<a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://arxiv.org/abs/2403.02327">Model Lakes</a> paper accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://edbticdt2025.upc.edu/">EDBT 2025</a>!`],
   ["Feb'25",`Served as a panelist at the Khoury Sheros of Color Women in Stem PhD`],
   ["Sept'24",`Contributed as a reviewer for <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://neurips.cc/Conferences/2024/ProgramCommittee">NeurIPS 2024 </a> and <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://interpretable-ai-workshop.github.io/">Interpretable AI Workshop @ NeurIPS 2024 </a>`],
@@ -27,7 +28,7 @@ var news_entries = [
     ["May'21", `Graduated from <a style="color: #da532c" target="_blank" class="link" href="https://www.brown.edu/">Brown University</a> with B.Sc in Computer Science (Honors)!`],
     ["April'21", `Successfully defended my <a style="color: blue" target="_blank" class="link" href="http://cs.brown.edu/research/pubs/theses/ugrad/2021/pal.koyena.pdf">undergraduate thesis</a>!`]
 ]
-var curr_news_cutoff = 5
+var curr_news_cutoff = 10
 
 function display_recent_news() {
     var news_entries_text = ``
