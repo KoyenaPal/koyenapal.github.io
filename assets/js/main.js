@@ -1,6 +1,6 @@
 var news_entries = [
   // ["May'25",`Awarded Microsoft Fellowship (~ USD 1K) to attend EDBT Summer School 2025. `], 
-  ["June'25",`Awarded target="_blank" class="link" href="https://www.cbai.ai/fellowship">CBAI Fellowship</a>`], 
+  ["June'25",`Awarded <a target="_blank" class="link" href="https://www.cbai.ai/fellowship">CBAI Fellowship</a>`], 
   ["May'25",`Served as a reviewer at NeurIPS 2025`], 
   ["Mar'25",`Served as a reviewer at ICML 2025!`],
   ["Mar'25",`Accepted into <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.matsprogram.org/">MATS Scholar</a> Training phase with Neel Nanda as my mentor!`],
