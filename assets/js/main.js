@@ -1,4 +1,6 @@
 var news_entries = [
+  ["Aug'25",`Served as lead-organizer of <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://nemiconf.github.io/summer25/">NEMI 2025</a>`],
+  ["Aug'25",`Internal states before wait reasoning paper got accepted to <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://2025.emnlp.org/">EMNLP 2025</a> findings.`], 
   ["June'25",`Awarded <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.cbai.ai/fellowship">CBAI Fellowship</a>`], 
   ["May'25",`Awarded Microsoft Fellowship to attend EDBT Summer School 2025 (<a target="_blank" class="link"  href="assets/docs/edbt_summer_school_cert.pdf">cert</a>) `], 
   ["May'25",`Served as a reviewer at NeurIPS 2025`], 
