@@ -1,7 +1,7 @@
 var news_entries = [
   ["Jan'26",`Preprint about <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://arxiv.org/abs/2601.11517">Generalization of Chain of Thoughts</a> is out on arXiv!`],
   ["Jan'26",`Began a co-op role at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.fidelity.com/">Fidelity Investments</a> as a Data Scientist on the AI Center of Excellence team.`],
-  ["Dec'25",`"Internal states before wait modulate reasoning patterns" paper accepted at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://underline.io/events/502/posters/20961/poster/132894-internal-states-before-wait-modulate-reasoning-patterns">EMNLP Findings 2025</a>!`],
+  ["Dec'25",`Presented <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://underline.io/events/502/posters/20961/poster/132894-internal-states-before-wait-modulate-reasoning-patterns">Internal states before wait modulate reasoning patterns</a> at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://2025.emnlp.org/">EMNLP 2025</a>!`],
   ["Dec'25",`NEMI workshop got featured at <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://www.khoury.northeastern.edu/northeastern-mechanistic-interpretability-workshop-aims-to-make-sense-of-ai-systems/">Khoury News</a>!`],
   ["Oct'25",`Served as a reviewer at ICLR 2026`], 
   ["Aug'25",`Served as lead-organizer of <a style="color: rgb(183, 5, 5)" target="_blank" class="link" href="https://nemiconf.github.io/summer25/">NEMI 2025</a>`],
